@@ -1,0 +1,122 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(135deg, rgba(0, 77, 153, 1) 17%, rgba(255, 255, 255, 1) 100%);
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: url("tiger.cur"), pointer;
+}
+
+.oneaboveall {
+    display: flex;
+    text-align: center;
+    vertical-align: middle;    
+}
+
+.oneaboveall h1{
+background: linear-gradient( 90deg, #ff0000, #ff8000, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+  background-size: 300% 100%; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow_animation 12s linear infinite alternate,
+              glow 1s ease-in-out infinite alternate;
+  display: inline-block; 
+
+  -webkit-animation: glow 1s ease-in-out infinite alternate,
+                     rainbow_animation 12s linear infinite alternate;
+  -moz-animation: rainbow_animation 12s linear infinite alternate,
+                glow 1s ease-in-out infinite alternate;
+
+
+}
+  @keyframes rainbow_animation {
+      0% {background-position: 0% 50%;
+      }
+      100% {background-position: 100% 50%;
+  }
+  }
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 15px #fff;
+  }
+  to {
+    text-shadow: 0 0 15px #fff;
+  }
+}
+
+
+.gmbrsklh {
+  width: 55px;
+  height: auto;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.absolutefirst {
+  margin-top: -10px;
+}
+
+.absolutecinema {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    gap: 20px;
+}
+
+.skibidi {
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 16px;
+  border-radius: 12px;
+  width: 320px;
+  box-sizing: border-box;
+  box-shadow: -2px 2px 20px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(6px);
+  flex-direction: column;
+  transition: all 0.3s ease;
+}
+.skibidi:hover{
+  box-shadow: 0 0 20px 4px rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+.sigma{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.sigma2 {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    background: #222;
+    box-shadow: inset 0 -30px 50px rgba(0, 0, 0, 0.5);
+}
+
+
+.firewriting {
+  text-align: center;
+  color: #ffffff;
+}
+
+.smolwr {
+  margin-top: -15px ;
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+h2 {
+    display: block;
+    font-weight: bold;
+}
